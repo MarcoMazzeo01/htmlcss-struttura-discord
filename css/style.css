@@ -10,12 +10,16 @@ header {
     min-height: 70px;
 }
 
+footer {
+    border-top: 2px solid white;
+}
+
 
 /* HEADER */
 header .container {
     background-color: yellow;
     width: 100%;
-    max-width: 900px;
+    max-width: 70%;
     height: 40px;
 }
 
@@ -96,3 +100,16 @@ section .container {
     width: calc(60%/4);
 }
 
+/* FOOTER */
+footer .container {
+    background-color: aquamarine;
+    height: 50px;
+    width: 70%;
+    margin-top: 1em;
+}
+
+footer .container button {
+    background-color: salmon;
+    font-size: 1.5em;
+    padding: 10px 24px;
+}
