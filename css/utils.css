@@ -43,5 +43,9 @@
 }
 
 .bg_grey {
-    background-color: gray;
+    background-color: rgb(171, 171, 171);
+}
+
+.bg_darkgrey {
+    background-color: rgb(73, 73, 73);
 }
