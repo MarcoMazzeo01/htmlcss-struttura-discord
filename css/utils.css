@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center_div {
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex.justify-center {
+    justify-content: center;
+}
+
+.flex.justify-around {
+    justify-content: space-around;
+}
+
+.flex.justify-between {
+    justify-content: space-between;
+}
+
+.flex.align-center {
+    align-items: center;
+}
+
+.flex.flex-wrap {
+    flex-wrap:wrap;
+}
+
+
+/* DEBUG CLASSES */
+.debug {
+    border: 1.5px dashed black;
+}
