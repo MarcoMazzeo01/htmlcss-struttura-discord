@@ -72,3 +72,27 @@ section .container {
     width: 60%;
     background-color: rgb(114, 229, 255);
 }
+
+
+/* TALL CONTAINER */
+.container_tall {
+    min-height: 800px;
+    max-width: 70%;
+    background-color: green;
+}
+
+.section_tall {
+    padding: 2em 0;
+}
+
+/* MULTI COLUMNS CONTAINER */
+.col_big {
+    background-color:salmon;
+    width: 40%;
+}
+
+.col {
+    background-color: #0ab17a;
+    width: calc(60%/4);
+}
+
