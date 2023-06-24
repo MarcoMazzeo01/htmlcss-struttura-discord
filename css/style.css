@@ -8,10 +8,11 @@
 header {
     background-color: aquamarine;
     min-height: 70px;
-
 }
 
-.container {
+
+/* HEADER */
+header .container {
     background-color: yellow;
     width: 100%;
     max-width: 900px;
@@ -34,7 +35,40 @@ header {
     text-align: center;
 }
 
-nav.header_item {
+nav .header_item {
     flex-grow: 4;
 }
 
+
+/* JUMBOTRON */
+.jumbotron {
+    min-height: 600px;
+    background-color: #1400ae;
+    border-bottom: 3px solid #00f8ba;
+}
+
+.jumbotron .container {
+    background-color: pink;
+    min-height: 500px;
+    width: 50%;
+
+}
+
+
+/* SECTIONS */
+section .container {
+    min-height: 700px;
+    max-width: 70%;
+    padding: 2em 0;
+
+}
+
+.container .col_1 {
+    width: 40%;
+    background-color: rgb(255, 114, 201);
+}
+
+.container .col_2 {
+    width: 60%;
+    background-color: rgb(114, 229, 255);
+}

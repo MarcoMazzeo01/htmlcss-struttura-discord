@@ -35,5 +35,13 @@
 
 /* DEBUG CLASSES */
 .debug {
-    border: 1.5px dashed black;
+    border: 2px dashed black;
+}
+
+.bg_white {
+    background-color: white;
+}
+
+.bg_grey {
+    background-color: gray;
 }
